@@ -22,6 +22,7 @@ class String
 
   def count_sentences
     # stack overflow...
+    # dont understand how "" form from split
     self.split(/[.!?]/).reject(&:empty?).size
   end
 end
